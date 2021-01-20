@@ -1,0 +1,274 @@
+/*
+
+███████████████████████████████████████████████████████████████
+    FILE PREPARED FOR ART102 Mobile Media Fall 2020 @UCSB
+    by Yin Yu
+
+Colors: 
+
+    Baby Pink       #FCEBEE
+    Light Pink      #FEC5D0
+    Hot Pink        #F93156
+    Baby Blue       #B5C7D3
+    Provence        #658DC6
+    Bright Blue     #EDFFFF
+    Ligh Blue       #4487C1 
+    Classic Blue    #0F4C81
+    Classic dark    #023056
+
+*/
+
+body {
+    background-color:#EDFFFF;
+    margin: 0;
+/*    width:100%;*/
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif; 
+    font-size: 10vmin;
+    letter-spacing:2px;
+    color: #F93156;
+    margin:40px;
+    
+}
+
+h2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 28px;
+    font-weight:900;
+    color:#EDFFFF;
+}
+
+
+h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 28px;
+    font-weight:700;
+    color:#F93156; 
+}
+
+h4 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    color:#FEC5D0; 
+}
+
+h5 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    font-weight:400;
+    color:#EDFFFF;
+}
+
+
+h6 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    color:#FEC5D0;
+}
+
+h7 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    font-weight:200;
+    color:#FCEBEE;
+    
+}
+
+h8 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    font-weight:200;
+    color:#FCEBEE;
+}
+
+p {
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color:#023056;
+    opacity: 100%;
+    line-height: 26px;
+    margin:40px;
+}
+
+a{
+    font-family:'Kumbh Sans', sans-serif;
+    color:#FEC5D0;
+    opacity: 100%;
+}
+
+a:visited {
+    opacity:65%;
+}
+a:hover{
+    color:#FEC5D0;
+}
+
+/*iframe {*/
+/*    width: 450px;*/
+/*    height: 450px;*/
+/*    border-style: none;*/
+/*    margin: 150px;*/
+/*    overflow: auto;*/
+/*    left: 0;*/
+/*}*/
+
+
+
+#about {
+    background-color: #023056;
+    width:100%;
+/*    margin-left:-10px;*/
+/*    margin-right:-40px;    */
+}
+    
+#about h2{
+    margin-left:150px;
+}
+
+#about h5{
+    margin-left:150px;
+}
+
+#about h6{
+    margin-left:250px;
+}
+
+#about h7{
+    margin-left:250px;
+    
+}
+
+#about h8{
+    margin-left:250px;
+    
+}
+
+section.content p{
+    color:#EDFFFF;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    margin-top:40px;
+    margin-left:0px;
+    width: inherit;
+    text-align: center;
+    line-height: 120px;
+}
+
+#cell {
+/*    background-color:#FCEBEE;*/
+    background-color:#F93156;
+    width:120px;
+    height:120px;
+    border-radius: 60px;
+    margin:5px;
+}
+
+#cell:hover {
+/*    background-color:#F93156;*/
+/*    background-color:#FEC5D0;*/
+    background-color: #023056;
+    
+}
+
+section.content a{
+    text-decoration: none;
+    margin-top:40px;
+    margin-left:0px;
+    text-align: center;
+    line-height: 0px;
+}
+
+
+section.content{
+/*    background-color:#0F4C81;*/
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width:100%;
+/*    margin-right:-40px;*/
+    padding: 0 0 50 0;
+}
+
+
+
+
+
+section.resources h4 {
+
+/*    color:#FCEBEE;*/
+    font-size:18px;
+    margin-left: 150px;
+}
+
+
+
+section.resources h5 {
+   color:#EDFFFF;
+/*    color:#4487C1;*/
+}
+
+section.resources p{
+    color:#658DC6; 
+    max-width:700px;
+    min-width:350px;
+    margin-left: 150px;
+    line-height: 22px;
+}
+
+section.resources a{
+    text-decoration:none;
+/*    color: #FCEBEE;*/
+    color:#F93156;
+}
+
+a:hover{
+    color:#F93156;    
+}
+
+
+#responsive-google-slides {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Ratio */
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 100px;
+}
+#responsive-google-slides iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 960px;
+    height: 100%;
+    margin-left: 40px;
+  }
+
+.box {
+          float:left;
+}
+
+.box2{
+          float:left;
+}
+
+footer {
+    background-color: #EDFFFF;
+}
+
+footer p{
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    color:#FEC5D0;
+    opacity: 100%;
+    width: inherit;
+    text-align: center;
+    margin-top:12px;
+    margin-bottom:0px;
+}
+
